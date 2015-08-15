@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FileSaver.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FileSpecifications" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TargetFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CompressOnStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CompressionApplication" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files\7-Zip\7z.exe</Value>
+    </Setting>
+    <Setting Name="ArchiveExtension" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">7z</Value>
+    </Setting>
+    <Setting Name="Interval" Type="System.TimeSpan" Scope="Application">
+      <Value Profile="(Default)">00:15:00</Value>
+    </Setting>
+    <Setting Name="FileCompressionCommandLineFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">u -ssw "{0}" "{1}"</Value>
+    </Setting>
+    <Setting Name="FolderCompressionCommandLineFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">u -ms=off -ssw "{0}" "@{1}"</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
