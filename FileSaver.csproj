@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Adrezdi.Windows">
-      <HintPath>\local\lib\Adrezdi.Windows.dll</HintPath>
+      <HintPath>\local\bin\Adrezdi.Windows.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
@@ -168,7 +168,7 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="\local\lib\Adrezdi.Windows.dll">
+    <EmbeddedResource Include="\local\bin\Adrezdi.Windows.dll">
       <Link>Adrezdi.Windows.dll</Link>
     </EmbeddedResource>
     <Content Include="Icons\Icons.svg" />
